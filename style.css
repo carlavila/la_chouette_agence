@@ -440,6 +440,10 @@ nav .caret {
     margin-bottom: 20px;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
