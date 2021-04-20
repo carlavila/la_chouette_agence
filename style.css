@@ -194,10 +194,14 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
-.l-bloc {
+.d-bloc .panel {
     color: rgba(0, 0, 0, .5);
 }
+
+.l-bloc {
+    color: #797676;
+}
+
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -544,6 +548,8 @@ button {
 }
 
 a[data-lightbox] {
+    width: 280px;
+    height: 280px;
     position: relative;
     display: block;
     text-align: center;
@@ -658,7 +664,7 @@ h3,
 h4,
 h5,
 h6,
-p,
+.brown,
 label,
 .btn,
 a {
@@ -693,7 +699,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -743,7 +749,7 @@ h4 {
 }
 
 .white {
-    color: black;
+    color: white;
 }
 
 .portfolio-thumb {
